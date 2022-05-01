@@ -1,1 +1,5 @@
-CREATE TABLE users;
+CREATE TABLE users(
+    full_name VARCHAR(100),
+    yearly_salary INT,
+    current_status ENUM('employed', 'self-employed', 'unemployed')
+);
