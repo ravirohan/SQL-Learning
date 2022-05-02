@@ -1,6 +1,7 @@
-INSERT INTO conversations (user_name, employer_name, message)
-VALUES (
-        'ROHAN',
-        'Bosch',
-        'Hello!! I am interested'
-    );
+INSERT INTO users(
+        first_name,
+        last_name,
+        yearly_salary,
+        current_status
+    )
+VALUES('ROHAN', 'RAVI', 36000, 'employed');
