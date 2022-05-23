@@ -1,0 +1,1 @@
+SELECT * FROM sales WHERE (is_dispute IS TRUE) OR (volume > 5000);
