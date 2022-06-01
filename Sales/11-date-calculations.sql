@@ -1,0 +1,1 @@
+SELECT * FROM sales WHERE (date_fulfilled - date_created <= 5);
